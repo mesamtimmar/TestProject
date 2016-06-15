@@ -1,6 +1,9 @@
 TestProject::Application.routes.draw do
 
 
+  resources :fotos
+
+
   resources :posts do
     resources :comments, shallow: :true
   end
