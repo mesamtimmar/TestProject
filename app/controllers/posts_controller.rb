@@ -6,7 +6,9 @@ http_basic_authenticate_with :name => "dhh", :password => "secret", :except => [
 
 
  #before_filter :authenticate
-
+hamza
+Ali
+baber
 #def authenticate
 #render :text => 'before_filter'
 #end
